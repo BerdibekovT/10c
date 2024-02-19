@@ -300,6 +300,7 @@
     .sec4{
         border-top: 5px solid #ff4067;
         background: #1c1a1a;
+        padding-bottom: 100px;
     }
     .sec4 h2{
         color: #ff4067;
@@ -317,8 +318,9 @@
         margin-top: 50px;
         width: 250px;
         margin-left: 17%;
-        padding-left: 40px;
-        column-gap: 25px;
+        padding-left: 35px;
+        column-gap: 30px;
+        padding-top: 5px;
     }
     .contacts img{
         width: 25px;
