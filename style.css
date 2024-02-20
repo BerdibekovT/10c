@@ -8,21 +8,21 @@
     list-style: none;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1000px) {
     header{
         background: #1c1a1a;
-        padding-left: 90px;
         padding-top: 100px;
         border-bottom: 5px solid #1c8bc6;
+        text-align: center;
     }
     .header{
         display: flex;
-        column-gap: 24%;
+        column-gap: 20%;
+        margin-left: 90px;
     }
     .header img{
-        width: 150px;
-        height: 100px;
-
+        width: 250px;
+        height: 175px;
     }
     .sec1{
         background: #1c1a1a;
@@ -163,7 +163,7 @@
         margin: 100px;
     }
 }
-@media (min-width: 0){
+@media (max-width: 600px){
     header{
         background: #1c1a1a;
         padding-top: 100px;
